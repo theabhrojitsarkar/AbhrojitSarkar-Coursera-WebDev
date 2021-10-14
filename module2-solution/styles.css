@@ -3,7 +3,11 @@ body
     margin: 0px;
     border: 0px;
     padding: 15px;
+
+    box-sizing: border-box;
 }
+
+
 
 h1
 {
@@ -11,10 +15,14 @@ h1
     border: 0px;
     padding: 0px;
 
+    box-sizing: border-box;
+
     text-align: center;
 }
 
-section
+
+
+div
 {
     margin: 15px;
     border: 1px solid black;
@@ -27,8 +35,17 @@ section
     clear: right;
 
     background-color: bisque;
-    width:31.5%;
+    width:31.25%;
 }
+
+
+
+section
+{
+    
+}
+
+
 
 h4
 {
@@ -36,29 +53,89 @@ h4
     border: 1px solid black;
     margin: 0px;
 
+    box-sizing: border-box;
+
     width: 100px;
     height: 15px;
 
     position: relative;
     top:0px;
-    right:0px;
+    left:499px;
 }
+
+
 
 p
 {
-    margin: 15px;
+    margin: 0px;
+    border: 0px;
+    padding: 5px;
+
+    box-sizing: border-box;
 
     text-align: center;
 }
 
-@media (min-width: 992)
+
+
+
+
+
+
+#Division1
 {
+    background-color: antiquewhite;
+}
+#Heading1
+{
+    background-color:aqua;
 }
 
-@media (min-width: 768) and (max-width: 991)
+#Division2
 {
+    background-color:aqua;
+}
+#Heading2
+{
+    background-color:aquamarine;
 }
 
-@media (max-width: 767)
+#Division3
 {
+    background-color:aquamarine;
+}
+#Heading3
+{
+    background-color:azure;
+}
+
+
+
+@media (min-width: 992px)
+{
+    #Division1, #Division2, #Division3
+    {
+        width: 31.25%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #Division1, #Division2
+    {
+        width: 45.45913%
+    }
+    #Division3
+    {
+        width: 93.94550%;
+    }
+
+}
+
+@media (max-width: 767px)
+{
+    #Division1, #Division2, #Division3
+    {
+        width: 92.94550%;
+    }
 }
