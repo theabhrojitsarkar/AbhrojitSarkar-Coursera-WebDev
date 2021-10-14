@@ -33,34 +33,25 @@ div
     position: relative;
     float: left;
     clear: right;
-
-    background-color: bisque;
-    width:31.25%;
-}
-
-
-
-section
-{
-    
 }
 
 
 
 h4
 {
-    background-color: brown;
-    border: 1px solid black;
     margin: 0px;
+    border: 1px solid black;
+    padding: 0px;
 
     box-sizing: border-box;
 
-    width: 100px;
+    position: relative;
+    float: right;
+
+    width: 75px;
     height: 15px;
 
-    position: relative;
-    top:0px;
-    left:499px;
+    text-align: center;
 }
 
 
@@ -69,7 +60,7 @@ p
 {
     margin: 0px;
     border: 0px;
-    padding: 5px;
+    padding: 0px;
 
     box-sizing: border-box;
 
