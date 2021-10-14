@@ -84,6 +84,7 @@ p
     background-color:aqua;
 }
 
+
 #Section2
 {
     background-color:aqua;
@@ -92,6 +93,7 @@ p
 {
     background-color:aquamarine;
 }
+
 
 #Section3
 {
@@ -112,6 +114,7 @@ p
     }
 }
 
+
 @media (min-width: 768px) and (max-width: 991px)
 {
     #Section1, #Section2
@@ -124,6 +127,7 @@ p
     }
 
 }
+
 
 @media (max-width: 767px)
 {
