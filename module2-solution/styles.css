@@ -2,9 +2,9 @@ body
 {
     margin: 0px;
     border: 0px;
-    padding: 15px;
+    padding: 0px;
 
-    box-sizing: border-box;
+    box-sizing: border-box;   
 }
 
 
@@ -24,7 +24,7 @@ h1
 
 section
 {
-    margin: 15px;
+    margin: 0px;
     border: 1px solid black;
     padding: 0px;
 
@@ -63,6 +63,8 @@ p
     margin: 0px;
     border: 0px;
     padding: 19px;
+
+    position: relative;
 
     box-sizing: border-box;
 
@@ -110,7 +112,13 @@ p
 {
     #Section1, #Section2, #Section3
     {
+        margin: 0.78125%;
         width: 31.25%;
+    }
+    body
+    {
+        background-color: black;
+        padding: 0.78125%;
     }
 }
 
@@ -119,13 +127,19 @@ p
 {
     #Section1, #Section2
     {
+        margin: 1.51362%;
         width: 45.45913%
     }
     #Section3
     {
+        margin: 1.51362%;
         width: 93.94550%;
     }
-
+    body
+    {
+        background-color:blue;
+        padding: 1.51362%;
+    }
 }
 
 
@@ -133,6 +147,12 @@ p
 {
     #Section1, #Section2, #Section3
     {
+        margin: 7.8226%8%;
         width: 92.94550%;
+    }
+    body
+    {
+        background-color:chocolate;
+        padding: 7.8226%8%;
     }
 }
