@@ -114,10 +114,6 @@ p
     {
         width: 30.20%;
     }
-    body
-    {
-        background-color: black;
-    }
 }
 
 
@@ -131,10 +127,6 @@ p
     {
         width: 93.94550%;
     }
-    body
-    {
-        background-color:blue;
-    }
 }
 
 
@@ -143,9 +135,5 @@ p
     #Section1, #Section2, #Section3
     {
         width: 92.94550%;
-    }
-    body
-    {
-        background-color:chocolate;
     }
 }
